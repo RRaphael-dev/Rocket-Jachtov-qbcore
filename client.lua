@@ -258,8 +258,8 @@ function politieMelding()
 end
 
 RegisterNetEvent('rocket-jachtoverval:clientsync')
-AddEventHandler('rocket-jachtoverval:clientsync', function(nigger)
-cooldownSecondsRemaining = nigger
+AddEventHandler('rocket-jachtoverval:clientsync', function(sec)
+cooldownSecondsRemaining = sec
 end)
 
 Citizen.CreateThread(function()
